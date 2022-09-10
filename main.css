@@ -1,0 +1,61 @@
+:root{
+    --light-green:rgb(27, 129, 157);
+    --dark-purple:rgb(59, 6, 59);
+    --purple:rgb(148, 20, 165);
+    --main-color:rgb(243, 222, 222);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--purple);
+    color: var(--main-color);
+    display: flex;
+    height: 100vh;
+}
+
+
+.watch{
+    text-align: center;
+    background-color: var(--light-green);
+    width: 100%;
+    max-width: 360px;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.time{
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.controls{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.controls button{
+    font-size: 1.10rem;
+    padding:0.4rem 1.1rem;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--purple);
+    color: var(--main-color);
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    background-color: var(--dark-purple);
+}
+
